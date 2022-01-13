@@ -1,0 +1,35 @@
+{
+  "name": "medical-record-api-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=dev nodemon src/index.js",
+    "start:prod": "cross-env NODE_ENV=prod node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataliia-Korneiko/medical-record-api-backend.git"
+  },
+  "keywords": [],
+  "author": "Nataliia Korneiko <korneyko_ns@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataliia-Korneiko/medical-record-api-backend/issues"
+  },
+  "homepage": "https://github.com/Nataliia-Korneiko/medical-record-api-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "ip": "^1.1.5",
+    "mysql": "^2.18.1",
+    "pino": "^7.6.3",
+    "pino-pretty": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
